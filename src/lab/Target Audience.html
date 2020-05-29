@@ -1,9 +1,21 @@
 <!DOCTYPE html><html lang="en"><head><!--Google Tag Manager-->
-<script class="gtm">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-W59SWTR');</script>
+
+<script class="gtm">
+
+    var dataLayer = [{
+        'labName': 'Fluid Machinery Lab',
+        'discipline': 'Civil Engineering',
+        'college': 'NITS',
+        'phase': '3',
+    }];
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W59SWTR');
+
+</script>
 <!--End Google Tag Manager-->
 
 <meta charset="UTF-8">
@@ -15,108 +27,56 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 <title>Welcome to Virtual Labs - A MHRD Govt of india Initiative</title>
 <link rel="shortcut icon" href="images/favicon.ico">
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style-main.css" rel="stylesheet">
-
-<!-- Important Owl stylesheet -->
-<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.css">
-<link rel="stylesheet" href="vendors/owl-carousel/owl.theme.css">
-
-<link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.css">
-</head>
-<body>
-	<!--Google Tag Manager (noscript)-->
-	<noscript class="gtm">
-		<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-W59SWTR" style="display:none;visibility:hidden" width="0">			
-		</iframe>
-	</noscript>
-	<!--End Google Tag Manager (noscript)-->
-	<div id="top">
-		<header><!-- Navigation -->
-<nav class="navbar navbar-default " style="background-color: white !important; margin-bottom: 0px !important;">
-    <div class="container-fluid">
-	            <!-- Brand and toggle get grouped for better mobile display -->
-	            <div class="navbar-header page-scroll">
-	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	                    <span class="sr-only">Toggle navigation</span>
-	                    <span class="icon-bar" style="background-color: #77BB41"></span>
-	                    <span class="icon-bar" style="background-color: #77BB41"></span>
-	                    <span class="icon-bar" style="background-color: #77BB41"></span>
-	                </button>
-	                <a class="navbar-brand main-logo-a" href="http://vlab.co.in"><img src="images/logo-new.png" class="img-responsive main-logo"></a>
-	            </div>			
-	                        
-	            <!-- Collect the nav links, forms, and other content for toggling -->
-	            <div class="collapse navbar-collapse menu-div" id="bs-example-navbar-collapse-1" style="border: 0px;">
-	               
-	                <ul class="nav navbar-nav navbar-right menu-ul search-ul" style="position: relative; top: -5px;">
-	                	<li>
-	                		<form method="get" action="search-result.html">
-	                        	<!-- <input type="text" class="search-textbox" placeholder="SEARCH FOR A LAB" name="q" id="q"/>
-	                        	<input type="submit" value="" class="search-button" /> -->
-	                        </form>
-	                	</li>
-	                </ul>
-	                
-	                <ul class="nav navbar-nav navbar-right menu-ul">
-	                    <li class="page-scroll menu-li ">
-	                        <a href="http://vlab.co.in" class="menu-a">HOME</a>
-	                    </li>
-
-	                    <li class="page-scroll menu-li ">
-	                        <a href="http://vlab.co.in/participating-institutes" class="menu-a">PARTNERS</a>
-	                    </li><li class="page-scroll menu-li ">
-	                        <a href="http://vlab.co.in/contact-us" class="menu-a">CONTACT</a>
-	                    </li>
-	                </ul>
-	                
-	               
-	                	
-	            </div>
-	            <!-- /.navbar-collapse -->  
-    </div>
-    <!-- /.container-fluid -->
-</nav></header>
-		<div id="content">
-			<div><div class="container-fluid">
-	<div class="row">
-		<hr style="background:#ff6600 !important;  height: 8px; margin: 0px;">
-	</div> <!-- row end -->
-</div></div>
-			<div class="container-fluid" style="margin-left: 35px; margin-right: 35px; display: flex;flex-direction: column;">
-				<h2 class="text-h2-lightblue"><a href="http://vlab.co.in/broad-area-civil-engineering" class="sidebar-a">
+<link href="css/vlabs-style.css" rel="stylesheet">
+<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/bootstrap.min.js"></script></head>
+	<body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+		<!--Google Tag Manager (noscript)-->
+		<noscript class="gtm">
+			<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-W59SWTR" style="display:none;visibility:hidden" width="0">			
+			</iframe>
+		</noscript>
+		<!--End Google Tag Manager (noscript)-->
+		<header class="vlabs-header sticky-top bg-white">
+			<!-- navbar -->	
+			<nav class="p-0 navbar navbar-expand-lg navbar-light">
+				<a href="http://vlab.co.in" class="navbar-brand">
+					<img src="images/logo-new.png" alt="vlabs logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerNavbar" aria-controls="headerNavbar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="headerNavbar">                
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="px-2" href="http://vlab.co.in">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="px-2" href="http://vlab.co.in/participating-institutes">PARTNERS</a>
+						</li>
+						<li class="nav-item">
+							<a class="px-2" href="http://vlab.co.in/contact-us">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+			</nav>		
+		</header>
+		<div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+			<div class="row py-4 px-4 breadcrumbs"><a href="http://vlab.co.in/broad-area-civil-engineering" class="sidebar-a">
 	Civil Engineering
-</a></h2>
-				<div class="row" style="display:flex; padding-top: 2rem; flex: 1">
-					<div class="col-md-2 sidebar-col-2 t-sidebar"><a href="Introduction.html" class="sidebar-a"> 
-	<h3 class="text-h3-darkblue" style="margin-top: 2px;">
-		Introduction
-	</h3>
-</a><a href="Objective.html" class="sidebar-a"> 
-	<h3 class="text-h3-darkblue" style="margin-top: 2px;">
-		Objective
-	</h3>
-</a>
-<a href="List of experiments.html" class="sidebar-a"> 
-	<h3 class="text-h3-darkblue" style="margin-top: 2px;">
-		List of experiments
-	</h3>
-</a>
-<a href="Target Audience.html" class="sidebar-a"> 
-	<h3 class="text-h3-darkblue" style="margin-top: 2px;">
-		Target Audience
-	</h3>
-</a>
-<a href="Course Alignment.html" class="sidebar-a">
-	<h3 class="text-h3-darkblue" style="margin-top: 2px;">
-		Course Alignment
-	</h3>
-</a>
-<a href="Feedback.html?domain=Computer Science" class="sidebar-a"> 
-	<h3 class="text-h3-darkblue" style="margin-top: 2px;">
-		Feedback
-	</h3>
 </a></div>
-					<div class="col-md-10 lab-list-col-10 t-content main-content"><h1 class="text-h2-lightblue">Environmental Engineering 1</h1>
+			<div class="row flex-grow-1 px-4">
+				<div class="nav flex-column col-sm-3 col-lg-2 sidebar"><a href="Introduction.html" class="py-2">Introduction</a>
+	<a href="Objective.html" class="py-2">Objective</a>
+<a href="List of experiments.html" class="py-2">List of experiments</a>
+<a href="Target Audience.html" class="py-2">Target Audience</a>
+<a href="Course Alignment.html" class="py-2">Course Alignment</a>
+<a href="Feedback.html" class="py-2">Feedback</a></div>
+				<div class="vlabs-page-content col-sm-7 col-lg-10 pr-5 pb-4">
+					<span class="lab-name"><h2 class="text-center">Fluid Machinery Lab</h2></span><!--labname-->
+					<div><h3 class="page-name">Target Audience</h3>
 <ul class="target-audience">
 	<li>
 		<span> UG </span>
@@ -127,111 +87,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 	</li>
 		<li> MS/Ph. D. Beginners in Civil Engineering and related topics </li>
 </ul></div>
+					
 				</div>
 			</div>
 		</div>
-		<footer id="footer"><div class="footer-top" id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-6">
-        <h4>Community Links</h4>
-        <p>
-	  <a href="http://www.sakshat.ac.in/">Sakshat Portal</a>
-	</p>
-        <p>
-	  <a href="http://outreach.vlabs.ac.in/">Outreach Portal</a>
-	</p>
-        <p>
-	  <a href="http://vlab.co.in/faq">FAQ : Virtual Labs</a>
-	</p>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <h4>Contact Us</h4>
-	<p> <strong>Phone:</strong> General Information : 011-26582050 </p>
-	<p> <strong>Email:</strong> support@vlab.co.in </p>
-      </div>
-      <div class="col-lg-4 col-md-6">
-	<h4>Follow Us</h4>
-	<div class="social-links">
-	  <a style="background: #55acee;" href="https://twitter.com/TheVirtualLabs" class="twitter">
-	    <i class="fa fa-twitter"></i>
-	  </a>
-	  <a style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/" class="facebook">
-	    <i class="fa fa-facebook"></i>
-	  </a>
-	  <a style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0" class="google-plus">
-	    <i class="fa fa-youtube"></i>
-	  </a>
-	  <a style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136" class="linkedin">
-	    <i class="fa fa-linkedin"></i>
-	  </a>
-	</div>
-      </div>
-    </div>
-  </div>
-</div>
-</footer>
-	</div>
-	<!-- js things -->
-
-
-
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="js/custom.js"></script>
-
-<!-- Include js plugin -->
-<script src="vendors/owl-carousel/owl.carousel.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function() {
-	 
-	  var owl = $("#owl-demo");
-	  owl.owlCarousel({
-	      navigation: true,
-	      navigationText: [
-	                       "<img src='images/left-arrow.png'>",
-	                       "<img src='images/right-arrow.png'>"
-	                       ],
-	      /* autoPlay : 3000,
-	      stopOnHover : true */
-	  });
-	  
-	  //owl for partner institutions
-	  var owl = $("#owl-partner-institutions");
-	  owl.owlCarousel({
-	      navigation: true,
-	      navigationText: [
-	                       "<img src='images/left-arrow.png'>",
-	                       "<img src='images/right-arrow.png'>"
-	                       ],
-	      autoPlay : 3000,
-	      stopOnHover : true,
-	      items : 8,
-	  });
-	 
+		<footer class="row text-light py-2 px-5 vlabs-footer">
+			<div class="col d-flex flex-column">
+				<span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+				<a href="http://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+				<a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+				<a href="http://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+			</div>
+			<div class="col d-flex flex-column">
+				<span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+				<span> Phone: General Information: 011-26582050 </span>
+				<span> Email: support@vlabs.ac.in </span>
+			</div>
+			<div class="col d-flex flex-column">
+				<span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+				<div class="social-links">
+					<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+					<i class="fa fa-twitter"></i>
+					</a>
+					<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+					<i class="fa fa-facebook"></i>
+					</a>
+					<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+					<i class="fa fa-youtube"></i>
+					</a>
+					<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+					<i class="fa fa-linkedin"></i>
+					</a>
+				</div>
+			</div>
+		</footer>
 	
 
- //owl for aboutus
-  var owl = $("#owl-aboutus");
-  owl.owlCarousel({
-      navigation: true,
-      singleItem:true
-  });
- 
-});
-</script>
-</body><!-- make
-
-config
-
-
-task mgmnat
-
-
- --></html>
+</body></html>
