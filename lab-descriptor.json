@@ -5,45 +5,53 @@
     },
 	"lab": "Fluid Machinery Lab",	
 	"phase": "3",
-	"collegeName": "NITS",
-    "baseUrl": "http://fmc-nitk.vlabs.ac.in",
+        "deployLab":true,
+        "collegeName": "NITS",
+        "baseUrl": "http://fmc-nitk.vlabs.ac.in",
 	"introduction": "Welcome to the Fluid Machinery Lab",
 	"experiments": [
 	    {
 			"name": "Performance Characteristics of Centrifugal Pump",
 			"short-name": "centrifugal-pump",
 			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-centrifugal-pump-nitk.git",
-			"branch": "master"
+	 	        "tag": "v1.0.0",
+	         	"deploy": true
 	    }, {
 			"name": "Performance Characteristics of Hydraulic Ram",
 			"short-name": "hydraulic-ram",
 			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-hydraulic-ram-nitk.git",
-			"branch": "master"			
+		        "tag": "v1.0.0",
+	         	"deploy": true
 	    }, {
 			"name": "Performance Characteristics of Kaplan Turbine",
 			"short-name": "kaplan-turbine",
 			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-kaplan-turbine-nitk.git",
-			"branch": "master"
+		        "tag": "v1.0.0",
+		        "deploy": true
 	    }, {
 			"name": "Double Acting Reciprocating Pump",
 			"short-name": "reciprocating-pump",
 			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/double-acting-reciprocating-pump-nitk.git",
-			"branch": "master"
+		        "tag": "v1.0.0",
+		        "deploy": true
 	    }, {
 			"name": "Performance Characteristics of Pelton Turbine",
 			"short-name": "pelton-turbine",
 			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-pelton-turbine-nitk.git",
-			"branch": "master"
+		        "tag": "v1.0.0",
+		        "deploy": true
 	    }, {
 			"name": "Pipe Bursting",
 			"short-name": "pipe-bursting",
 			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/pipe-bursting-nitk.git",
-			"branch": "master"
+		        "tag": "v1.0.0",
+		        "deploy": true
 	    }, {
 			"name": "Performance Characteristics of Francis Turbine",
 			"short-name": "francis-turbine",
 			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-francis-turbine-nitk.git",
-			"branch": "master"
+		        "tag": "v1.0.0",
+		        "deploy": true
         }
     ],
     "targetAudience": {
