@@ -56,23 +56,21 @@
     ],
     "targetAudience": {
 	"UG": [
-	    "B. Tech./ B.E in Civil Engineering"
+	    "B.E/B.Tech in Civil Engineering and Mechanical Engineering"
 	],
 	"PG": [
-	    "MS/Ph. D. Beginners in Civil Engineering and related topics"
+	    "M.Tech/MS in Marine Structures and Hydraulic Engineering",
+	    "Diploma in Civil Engineering and Mechanical Engineering"	
 	]
     },
-    "objective": "Many of our daily life activity depends on fluid machinery so it is important to understand the functioning principles and characteristics of such machinery from an engineering point of view. This lab focuses on giving the user an idea about practical behaviour of such machines before performing operations on a real system.",
+    "objective": "Many of our daily life activity depends on fluid machinery so it is important to understand the functioning principles and characteristics of such machinery from an engineering point of view. This lab focuses on giving the user idea about the practical behavior of such machines before performing operations on a real system.",
     "courseAlignment": {
-	"description": "The syllabi of this lab aligns to the following universities in India.",
+	"description": "Following are the courses in which one can come across the theory connected to the experiments in this lab :",
 	"universities": [
-	    "Visvesvaraya Technological University Karnataka",
-	    "National Institute of Technology Karnataka Karnataka",
-	    "Anna University Tamil Nadu",
-	    "SRM University Delhi - NCR Sonepat Haryana",
-	    "University of Kerala Kerala",
-	    "APJ Abdul Kalam Technological University Kerala",
-	    "CUSAT Kerala"
+	    "Hydraulics Lab- National Institute of Technology Karnataka Surathkal, Goa University, Anna University",
+	    "Mechanics of Fluids- National Institute of Technology Karnataka Surathkal",
+	    "Fluid Mechanics I, II- APJ Abdul Kalam Technological University, Goa University, Anna University",
+	    "Fluid Mechanics lab- APJ Abdul Kalam Technological University"
 	]
     }
 }
