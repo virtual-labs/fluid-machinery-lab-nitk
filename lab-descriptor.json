@@ -1,76 +1,81 @@
 {
-    "broadArea": {
-	"name": "Civil Engineering",
-	"link": "http://vlab.co.in/broad-area-civil-engineering"
+  "broadArea": {
+    "name": "Civil Engineering",
+    "link": "http://vlab.co.in/broad-area-civil-engineering"
+  },
+  "lab": "Fluid Machinery Lab",
+  "phase": 3,
+  "deployLab": true,
+  "collegeName": "NITS",
+  "baseUrl": "fmc-nitk.vlabs.ac.in",
+  "introduction": "Welcome to the Fluid Machinery Lab",
+  "experiments": [
+    {
+      "name": "Performance Characteristics of Centrifugal Pump",
+      "short-name": "centrifugal-pump",
+      "repo": "https://github.com/virtual-labs/exp-centrifugal-pump-nitk",
+      "tag": "v1.0.0",
+      "deploy": true
     },
-	"lab": "Fluid Machinery Lab",	
-	"phase": "3",
-        "deployLab":true,
-        "collegeName": "NITS",
-        "baseUrl": "http://fmc-nitk.vlabs.ac.in",
-	"introduction": "Welcome to the Fluid Machinery Lab",
-	"experiments": [
-	    {
-			"name": "Performance Characteristics of Centrifugal Pump",
-			"short-name": "centrifugal-pump",
-			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-centrifugal-pump-nitk.git",
-	 	        "tag": "v1.0.2",
-	         	"deploy": true
-	    }, {
-			"name": "Performance Characteristics of Hydraulic Ram",
-			"short-name": "hydraulic-ram",
-			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-hydraulic-ram-nitk.git",
-		        "tag": "v1.0.2",
-	         	"deploy": true
-	    }, {
-			"name": "Performance Characteristics of Kaplan Turbine",
-			"short-name": "kaplan-turbine",
-			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-kaplan-turbine-nitk.git",
-		        "tag": "v1.0.2",
-		        "deploy": true
-	    }, {
-			"name": "Double Acting Reciprocating Pump",
-			"short-name": "reciprocating-pump",
-			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/double-acting-reciprocating-pump-nitk.git",
-		        "tag": "v1.0.2",
-		        "deploy": true
-	    }, {
-			"name": "Performance Characteristics of Pelton Turbine",
-			"short-name": "pelton-turbine",
-			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-pelton-turbine-nitk.git",
-		        "tag": "v1.0.2",
-		        "deploy": true
-	    }, {
-			"name": "Pipe Bursting",
-			"short-name": "pipe-bursting",
-			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/pipe-bursting-nitk.git",
-		        "tag": "v1.0.2",
-		        "deploy": true
-	    }, {
-			"name": "Performance Characteristics of Francis Turbine",
-			"short-name": "francis-turbine",
-			"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-francis-turbine-nitk.git",
-		        "tag": "v1.0.2",
-		        "deploy": true
-        }
-    ],
-    "targetAudience": {
-	"UG": [
-	    "B.E/B.Tech in Civil Engineering and Mechanical Engineering"
-	],
-	"PG": [
-	    "M.Tech/MS in Marine Structures and Hydraulic Engineering",
-	    "Diploma in Civil Engineering and Mechanical Engineering"	
-	]
+    {
+      "name": "Performance Characteristics of Hydraulic Ram",
+      "short-name": "hydraulic-ram",
+      "repo": "https://github.com/virtual-labs/exp-hydraulic-ram-nitk",
+      "tag": "v1.0.0",
+      "deploy": true
     },
-    "objective": "Many of our daily life activity depends on fluid machinery so it is important to understand the functioning principles and characteristics of such machinery from an engineering point of view. This lab focuses on giving the user idea about the practical behavior of such machines before performing operations on a real system.",
-    "courseAlignment": {
-	"description": "Following are the courses in which one can come across the theory connected to the experiments in this lab :",
-	"universities": [
-	    "Hydraulics Lab- National Institute of Technology Karnataka Surathkal, Goa University, Anna University",
-	    "Mechanics of Fluids- National Institute of Technology Karnataka Surathkal",
-	    "Fluid Mechanics I, II- APJ Abdul Kalam Technological University, Goa University, Anna University",
-	    "Fluid Mechanics lab- APJ Abdul Kalam Technological University"
-	]
+    {
+      "name": "Performance Characteristics of Kaplan Turbine",
+      "short-name": "kaplan-turbine",
+      "repo": "https://github.com/virtual-labs/exp-kaplan-turbine-nitk",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Double Acting Reciprocating Pump",
+      "short-name": "reciprocating-pump",
+      "repo": "https://github.com/virtual-labs/exp-reciprocating-pump-nitk",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Performance Characteristics of Pelton Turbine",
+      "short-name": "pelton-turbine",
+      "repo": "https://github.com/virtual-labs/exp-pelton-turbine-nitk",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Pipe Bursting",
+      "short-name": "pipe-bursting",
+      "repo": "https://github.com/virtual-labs/exp-pipe-bursting-nitk",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Performance Characteristics of Francis Turbine",
+      "short-name": "francis-turbine",
+      "repo": "https://github.com/virtual-labs/exp-francis-turbine-nitk",
+      "tag": "v1.0.0",
+      "deploy": true
     }
+  ],
+  "targetAudience": {
+    "UG": ["B.E/B.Tech in Civil Engineering and Mechanical Engineering"],
+    "PG": [
+      "M.Tech/MS in Marine Structures and Hydraulic Engineering",
+      "Diploma in Civil Engineering and Mechanical Engineering"
+    ]
+  },
+  "objective": "Many of our daily life activity depends on fluid machinery so it is important to understand the functioning principles and characteristics of such machinery from an engineering point of view. This lab focuses on giving the user idea about the practical behavior of such machines before performing operations on a real system.",
+  "courseAlignment": {
+    "description": "Following are the courses in which one can come across the theory connected to the experiments in this lab :",
+    "universities": [
+      "Hydraulics Lab- National Institute of Technology Karnataka Surathkal, Goa University, Anna University",
+      "Mechanics of Fluids- National Institute of Technology Karnataka Surathkal",
+      "Fluid Mechanics I, II- APJ Abdul Kalam Technological University, Goa University, Anna University",
+      "Fluid Mechanics lab- APJ Abdul Kalam Technological University"
+    ]
+  },
+  "version": "v1.0.3"
 }
