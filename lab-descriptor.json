@@ -42,7 +42,7 @@
       "name": "Performance Characteristics of Pelton Turbine",
       "short-name": "pelton-turbine",
       "repo": "https://github.com/virtual-labs/exp-pelton-turbine-nitk",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
