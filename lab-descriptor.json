@@ -61,10 +61,9 @@
     }
   ],
   "targetAudience": {
-    "UG": ["B.E/B.Tech in Civil Engineering and Mechanical Engineering"],
+    "UG": ["B.E/B.Tech in Civil Engineering and Mechanical Engineering", "Diploma in Civil Engineering and Mechanical Engineering"],
     "PG": [
-      "M.Tech/MS in Marine Structures and Hydraulic Engineering",
-      "Diploma in Civil Engineering and Mechanical Engineering"
+      "M.Tech/MS in Marine Structures and Hydraulic Engineering"
     ]
   },
   "objective": "Many of our daily life activity depends on fluid machinery so it is important to understand the functioning principles and characteristics of such machinery from an engineering point of view. This lab focuses on giving the user idea about the practical behavior of such machines before performing operations on a real system.",
