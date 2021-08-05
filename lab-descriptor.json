@@ -61,10 +61,11 @@
     }
   ],
   "targetAudience": {
-    "UG": ["B.E/B.Tech in Civil Engineering and Mechanical Engineering", "Diploma in Civil Engineering and Mechanical Engineering"],
-    "PG": [
-      "M.Tech/MS in Marine Structures and Hydraulic Engineering"
-    ]
+    "UG": [
+      "B.E/B.Tech in Civil Engineering and Mechanical Engineering",
+      "Diploma in Civil Engineering and Mechanical Engineering"
+    ],
+    "PG": ["M.Tech/MS in Marine Structures and Hydraulic Engineering"]
   },
   "objective": "Many of our daily life activity depends on fluid machinery so it is important to understand the functioning principles and characteristics of such machinery from an engineering point of view. This lab focuses on giving the user idea about the practical behavior of such machines before performing operations on a real system.",
   "courseAlignment": {
@@ -76,7 +77,7 @@
       "Fluid Mechanics lab- APJ Abdul Kalam Technological University"
     ]
   },
-  "version": "v1.5.0",
+  "version": "v1.6.0",
   "exp_name": "Performance Characteristics of Francis Turbine",
   "exp_short_name": "francis-turbine"
 }
