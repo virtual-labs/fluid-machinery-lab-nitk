@@ -1,7 +1,8 @@
 {
   "broadArea": {
     "name": "Civil Engineering",
-    "link": "http://vlab.co.in/broad-area-civil-engineering"
+    "link": "http://vlab.co.in/broad-area-civil-engineering",
+    "code":"CIVIL"
   },
   "lab": "Fluid Machinery Lab",
   "lab_display_name": "Fluid Machinery Lab",
@@ -77,8 +78,5 @@
       "Fluid Mechanics I, II- APJ Abdul Kalam Technological University, Goa University, Anna University",
       "Fluid Mechanics lab- APJ Abdul Kalam Technological University"
     ]
-  },
-  "version": "v1.11.0",
-  "exp_name": "Performance Characteristics of Francis Turbine",
-  "exp_short_name": "francis-turbine"
+  }
 }
